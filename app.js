@@ -2,7 +2,7 @@ const express = require ('express');
 const app = express();
 const path = require ('path');
 
-const PORT = proces.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
      console.log("servidor corriendo" + PORT);
